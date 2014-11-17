@@ -1,0 +1,17 @@
+{
+  "name": "train-tracker",
+  "version": "1.0.0",
+  "description": "server to gather realtime data from the gps devices in the trains",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nipuna Gunathilake",
+  "license": "GPL",
+  "dependencies": {
+    "mysql": "^2.5.3",
+    "node-gcm": "^0.9.12",
+    "socket.io": "^1.2.0"
+  }
+}
